@@ -16,6 +16,16 @@ curl -fsSL https://raw.githubusercontent.com/andre1361/quartzo-app/main/instalar
 O instalador baixa a última versão, confere que o arquivo é o mesmo que foi publicado (SHA-256) e a assinatura,
 coloca o Quartzo em Aplicativos e abre. Não precisa de conta no GitHub.
 
+### Sem Terminal
+
+1. Baixe o **[Quartzo.dmg](https://github.com/andre1361/quartzo-app/releases/latest/download/Quartzo.dmg)**, abra e
+   arraste o Quartzo para a pasta Aplicativos.
+2. Abra o Quartzo. Na primeira vez o macOS avisa que não conseguiu verificar o app (ele é assinado, mas ainda não
+   passou pela notarização da Apple) e não abre.
+3. Vá em **Ajustes do Sistema › Privacidade e Segurança**, role até o aviso sobre o Quartzo e clique em
+   **Abrir Mesmo Assim**. Confirme com a senha do Mac. Isso só é pedido uma vez; as atualizações seguintes abrem
+   direto.
+
 **Precisa de:** Mac com Apple Silicon (M1 ou mais novo), macOS 14 ou mais novo e o
 [Claude Code](https://claude.com/claude-code) com uma conta Claude Pro ou Max. Se o Claude Code ainda não estiver
 instalado, o Quartzo mostra na primeira abertura um botão para instalar e entrar.
