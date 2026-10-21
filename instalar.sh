@@ -21,7 +21,7 @@ fi
 TMP=$(mktemp -d)
 trap 'rm -rf "$TMP"' EXIT
 BASE="https://github.com/$REPO/releases/download/$TAG"
-echo "› Baixando o Quartzo $VERSION…"
+echo "› Baixando o Quartzo ${VERSION}…"
 curl -fSL --progress-bar -o "$TMP/Quartzo-$VERSION.zip" "$BASE/Quartzo-$VERSION.zip"
 curl -fsSL -o "$TMP/Quartzo-$VERSION.zip.sha256" "$BASE/Quartzo-$VERSION.zip.sha256"
 
