@@ -26,9 +26,9 @@ coloca o Quartzo em Aplicativos e abre. Não precisa de conta no GitHub.
    **Abrir Mesmo Assim**. Confirme com a senha do Mac. Isso só é pedido uma vez; as atualizações seguintes abrem
    direto.
 
-**Precisa de:** Mac com Apple Silicon (M1 ou mais novo), macOS 14 ou mais novo e o
-[Claude Code](https://claude.com/claude-code) com uma conta Claude Pro ou Max. Se o Claude Code ainda não estiver
-instalado, o Quartzo mostra na primeira abertura um botão para instalar e entrar.
+**Precisa de:** Mac com Apple Silicon (M1 ou mais novo) e macOS 14 ou mais novo. Para conversar com agentes
+neste Mac, use o [Claude Code](https://claude.com/claude-code) ou o Codex com a sua conta. Na primeira abertura,
+o Quartzo ajuda a instalar e entrar. Também é possível começar apenas conectando a outro Mac com o Quartzo.
 
 ## Atualizações
 
